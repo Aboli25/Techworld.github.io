@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TECH-WORLD</title>
+    
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css">
+    
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./css/Style.css">
+
+</head>
+
+<body>
+
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="nav-brand">
+            <a href="#" class="text-gray" style="font-size: 26px;font-family: 'Nunito',sans-serif;text-decoration: none;font-weight: 400;">TECH-WORLD</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="custom-navbar collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Category
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.google.com/amp/s/www.indiatoday.in/amp/information/story/computer-shortcut-keys-everyone-should-know-1480158-2019-03-17">Shortcut keys</a>
+                        <a class="dropdown-item" href="https://en.cppreference.com/w/cpp/language/ascii">ASCII Chart</a>
+                        <a class="dropdown-item" href="https://www.computerscienceonline.org/careers/information-technology/">Carrer Opportunities</a>
+                        <a class="dropdown-item" href="#">Competative programming</a>
+                        
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact Us</a>
+                </li>
+               
+            </ul>
+            <div class="social text-gray">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="http://gmail.com/"><i class="fas fa-envelope-square"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/aboli-paighan-33ba12184"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </nav>
+  
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+
+        <!------------------------ Site Title ---------------------->
+
+        <section class="site-title">
+            <video id="home-bg-video" poster="video/poster.jpg" autoplay loop muted>
+                <source src="video/video.mp4" type="video/mp4">
+                <!-- alternate video file which may browser choose for video-->
+                <source src="video/video.ogg ." type="video/ogg">
+                <source src="video/video.webm" type="video/webm">
+            </video>
+            <!--overlay-->
+            <div class="home-video-overlay"></div>
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+                <h3>Welcome to the TECH-World</h3>
+                <h1 class="mb-5">Enhance your Technical Knowledge</h1>
+                <a href="#sitecontent" class="discover-btn">Discover More</a>
+            </div>
+            
+        </section>
+
+        <!------------x----------- Site Title ----------x----------->
+
+        <!-- --------------------- Blog Carousel ----------------- --
+
+        <section id="blog">
+            <div class="blog">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/popular-post/1.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>London Fashion week's continued the evolution</h3>
+                                <button class="btn btn-blog">Fashion</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="./assets/popular-post/1.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>London Fashion week's continued the evolution</h3>
+                                <button class="btn btn-blog">Fashion</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                            <img src="./assets/popular-post/1.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>London Fashion week's continued the evolution</h3>
+                                <button class="btn btn-blog">Fashion</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-5.png" alt="post-1">
+                            <div class="blog-title">
+                                <h3>London Fashion week's continued the evolution</h3>
+                                <button class="btn btn-blog">Fashion</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------x---------- Blog Carousel --------x-------- -->
+
+        <!-- ---------------------- Site Content -------------------------->
+
+        <section class="container" id="sitecontent">
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                
+                            </div>
+                            
+                               
+                            
+                        </div>
+                        <div class="post-title">
+                            <a href="#"> What Are Technical Skills? </a>
+                            <p>
+A technical skill is the ability to carry out a task associated with technical roles such as IT, engineering, mechanics, science or finance. Typical technical skills are programming, the analysis of complex figures or the use of specific tools. The majority of technical skills require experience and sometimes extensive training to master.
+
+As job hunting becomes more competitive, graduates need to work even harder to differentiate themselves from other candidates, and acquiring technical skills is one way to achieve this
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog2.png" class="img" alt="blog1">
+                            </div>
+                            
+                        </div>
+                        <div class="post-title">
+                            <a href="#">C Programming</a>
+                            <p>C is a powerful general-purpose programming language. It can be used to develop software like operating systems, databases, compilers, and so on. C programming is an excellent language to learn to program for beginners.</p>
+
+                          <p>Our C tutorials will guide you to learn C programming one step at a time.
+                            </p>
+                            <button class="btn post-btn"><a href="https://www.programiz.com/c-programming">Read More &nbsp; <i class="fas fa-arrow-right"></i></a></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog3.png" class="img" alt="blog1">
+                            </div>
+                            
+                        </div>
+                        <div class="post-title">
+                            <a href="#">C++ Programming</a>
+                            <p>C++ is a powerful general-purpose programming language. It can be used to develop operating systems, browsers, games, and so on. C++ supports different ways of programming like procedural, object-oriented, functional, and so on. This makes C++ powerful as well as flexible.</p>
+
+<p>Our C++ programming tutorial will guide you to learn C++ programming one step at a time.</p>
+                            </p>
+                            <button class="btn post-btn"><a href="https://www.programiz.com/cpp-programming">Read More &nbsp; <i class="fas fa-arrow-right"></i></a></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog4.png" class="img" alt="blog1">
+                            </div>
+                            
+                        </div>
+                        <div class="post-title">
+                            <a href="#">JAVA Programming</a>
+                            <p>Java is a powerful general-purpose programming language. It is used to develop desktop and mobile applications, big data processing, embedded systems, and so on. According to Oracle, the company that owns Java, Java runs on 3 billion devices worldwide, which makes Java one of the most popular programming languages.</p>
+
+<p>Our Java tutorial will guide you to learn Java one step at a time.</p>
+                            </p>
+                            <button class="btn post-btn"><a href="https://www.programiz.com/java-programming">Read More &nbsp; <i class="fas fa-arrow-right"></i></a></button>
+                        </div>
+                    </div>
+                    <div class="pagination flex-row">
+                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="pages">1</a>
+                        <a href="https://www.programiz.com/python-programming" class="pages">2</a>
+                        <a href="https://www.programiz.com/dsa" class="pages">3</a>
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2>Category</h2>
+                        <ul class="category-list">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a href="https://www.google.com/amp/s/www.indiatoday.in/amp/information/story/computer-shortcut-keys-everyone-should-know-1480158-2019-03-17">Shortcut-keys chart</a>
+                                
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="https://en.cppreference.com/w/cpp/language/ascii">ASCII Chart</a>
+                                
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="300">
+                                <a href="https://www.computerscienceonline.org/careers/information-technology/">Carrer Opportunites</a>
+                                
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="400">
+                                <a href="https://www.codingninjas.com/courses/online-competitive-programming-course?source=google&campaign=search_prosp_competitive-programming_10Dec2019&utm_source=google&utm_medium=[search]&utm_campaign=8523238782_86508542636_e_competitive%20programming%20course__405436008186_m&gclid=CjwKCAjwk6P2BRAIEiwAfVJ0rJaCk4J853CLlrQxFZEdUZ1I0XM0z18SOyyn9n6HrYxK9PXE-RrRpRoCFFwQAvD_BwE">Competative programming courses</a>
+                                
+                            
+                        </ul>
+                    </div>
+                    <div class="popular-post">
+                        <h2>Popular Post</h2>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-1.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;May 23,
+                                        2020</span>
+                                    
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"> Artificial Intelligence (AI)</a>
+
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-2.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;May,
+                                        2020</span>
+                                    
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="https://www.google.com/amp/s/m.economictimes.com/tech/software/how-countries-are-using-technology-to-fight-coronavirus/amp_articleshow/74867177.cms">How countries are using technology to fight coronavirus</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-3.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;May ,
+                                        2020</span>
+                                    
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="https://www.google.com/amp/s/m.economictimes.com/topic/robotic-process-automation/amp">Robotic Process Automation or RPA</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-4.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;May,
+                                        2020</span>
+                            
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="https://www.rtinsights.com/edge-and-iot-resources/?utm_source=gads&utm_medium=search&utm_campaign=eihub_var1title&gclid=CjwKCAjwk6P2BRAIEiwAfVJ0rIOEQN4LgxN_aTym8c2hhiD5VM5IGeJe6x1wy3UD-c4NykjGGLeJgBoC5hUQAvD_BwE">Edge Computing</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="600">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-5.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;May,
+                                        2020</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="https://economictimes.indiatimes.com/topic/augmented-reality">Virtual Reality and Augmented Reality</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+                        <h2>Newsletter</h2>
+                        <div class="form-element">
+                            <input type="text" class="input-element" placeholder="Email">
+                            <button class="btn form-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="popular-tags">
+                        <h2>Popular Tags</h2>
+                        <div class="tags flex-row">
+                            <span class="tag" data-aos="flip-up" data-aos-delay="100">Software</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="200">technology</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="300">Programming language</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="400">C</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="500">C++</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="600">JAVA</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="700">Python</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="800">AI/ML</span>
+                        </div>
+                        
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- -----------x---------- Site Content -------------x------------>
+
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+
+    <!-- --------------------------- Footer ---------------------------------------- --
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About us</h2>
+                <p>At Tech-World,We believe everyone should have the opportunity to create progress through technology and develop the skills of tommorow.Our platform helps you to enhance knowledge of latest technology and learn basic programming languages.</p>
+            </div>
+
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Newsletter</h2>
+                <p>Stay update with our latest</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="./assets/instagram/thumb-card3.png" alt="insta1">
+                    <img src="./assets/instagram/thumb-card4.png" alt="insta2">
+                    <img src="./assets/instagram/thumb-card5.png" alt="insta3">
+                </div>
+                <div class="flex-row">
+                    <img src="./assets/instagram/thumb-card6.png" alt="insta4">
+                    <img src="./assets/instagram/thumb-card7.png" alt="insta5">
+                    <img src="./assets/instagram/thumb-card8.png" alt="insta6">
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p>Let us be Social</p>
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">
+                
+                <a href="" target="_black"> <i class="fab fa-youtube"></i>
+                    Channel</a>
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+    </footer>
+    
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
